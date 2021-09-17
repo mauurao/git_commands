@@ -19,6 +19,8 @@ Comandos Git
 | `git status` | Checa o status |
 | `git add [nome-arquivo.txt]` | Adiciona um arquivo para área de stage |
 | `git add -A` | Adiciona todos os arquivos novos ou modificados para a área de stage |
+| `git config --global user.email "email.exemplo.com"` | Identificação do email antes de commitar |
+| `git config --global user.name "Nome"` | Identificação do nome antes de commitar |
 | `git commit -m "[Mensagem de Commit]"` | Comita as alterações |
 | `git rm -r [nome-arquivo.txt]` | Remove um arquivo (ou pasta) |
 
