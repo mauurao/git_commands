@@ -71,7 +71,7 @@ Exemplo:
 Seu repositório está vazio. Você deve primeiro inicializá-lo na sua máquina local, e só então poderá fazer push. Os procedimento são os a seguir:
 
 Criação de repositório local:
-> cd C:\Users\Nikolai\Desktop\exercicios-c
+> cd C:\Users\Nikolai\Desktop\exercicios-c <br>
 > git init
 
 Adicione então um arquivo qualquer, pode ser código fonte, texto, imagem. Qualquer um. É normal ter um arquivo "contributors.txt" no repositório, com os nomes dos integrantes no desenvolvimento.
@@ -84,12 +84,12 @@ No meu caso adicionei todos os ficheiros que queria
 
 Adicionar o arquivo para o repositório e commitar:
 
-> git add contributors.txt " Eu fiz git add ."
+> git add contributors.txt " Eu fiz git add ." <br>
 > git commit -m "Primeiro commit!"
 
 Enviar para o servidor remoto:
 
-> git remote add origin https://github.com/NikolaiCinotti/exercicios-c.git
+> git remote add origin https://github.com/NikolaiCinotti/exercicios-c.git <br>
 > git push -u origin main
 
 ----------------------------------------------------
